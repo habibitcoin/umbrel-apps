@@ -2,7 +2,7 @@ manifestVersion: 1
 id: sparkkiosk
 category: Finance
 name: Sparkkiosk
-version: "1.0.0-build-2"
+version: "1.0.1-build-2"
 tagline: Minimal LNURL kiosk
 description: >-
   Use sparkkiosk to enable lightning payments from printed QR codes
@@ -12,11 +12,11 @@ description: >-
 
   Log into the dashboard, create a new LNURL, set currency and amount and download QR to print. Monitor latest invoices.
 developer: Jens Gertsen
-website: https://github.com/jensgertsen/sparkkiosk
+website: https://github.com/habibitcoin/sparkkiosk
 dependencies:
   - lightning
-repo: https://github.com/jensgertsen/sparkkiosk
-support: https://github.com/jensgertsen/sparkkiosk/discussions
+repo: https://github.com/habibitcoin/sparkkiosk
+support: https://github.com/habibitcoin/sparkkiosk/discussions
 port: 21214
 gallery:
   - 1.jpg

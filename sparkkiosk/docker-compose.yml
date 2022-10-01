@@ -8,7 +8,7 @@ services:
       APP_PORT: 21214
 
   web:
-    image: jensgertsen/sparkkiosk:v1.0.0@sha256:d49500ce9c47d04436e64dae7e336416aa32f83673058154aa8a983e1420008c
+    image: habibitcoin/sparkkiosk:v1.0.1@sha256:3d9be559d3cf6ef7f53e59d6f18516a5e8b1c789cd1c52508009a301945d8526
     user: 1000:1000
     init: true
     restart: on-failure
